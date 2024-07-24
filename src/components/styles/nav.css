@@ -1,0 +1,17 @@
+.nav-logo {
+    width: 170px;
+    height: auto;
+}
+
+.nav-icons {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.logoSection{
+    margin-right: 50px;
+}
+
+.nav-icon {
+    cursor: pointer;
+}

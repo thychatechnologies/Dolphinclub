@@ -1,0 +1,45 @@
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.features-section .feature {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.features-section .feature h4 {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature p {
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(var(--bs-tertiary-bg-rgb));
+    width: 64px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+
+@media (max-width: 768px) { /* Landscape phones and tablets */
+    
+}
+
+@media (max-width: 576px) { /* Portrait phones */
+ 
+}

@@ -1,0 +1,32 @@
+.bannerImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.banner-main {
+    position: relative;
+    background-color: rgba(var(--bs-tertiary-bg-rgb));
+}
+
+.p-4 {
+    padding: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.custom-icon {
+    background-color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.bannerrow:hover .custom-icon {
+    opacity: 1;
+    visibility: visible;
+}
