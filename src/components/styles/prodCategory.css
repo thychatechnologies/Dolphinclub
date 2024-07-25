@@ -1,0 +1,119 @@
+/* Card row bottom pseudo-element */
+.card-row {
+    position: relative;
+    padding-bottom: 30px; /* Adjust the padding to fit the pseudo-element */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.card-row::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Center the element */
+    width: 80%;
+    height: 2px;
+    background-color: #757373;
+    transform: translateX(-50%); /* Adjust the position to center it */
+}
+
+/* Styling for the list items */
+.procategorybar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+}
+
+.procategorybar-list-item {
+    cursor: pointer;
+    padding: 10px 15px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.procategorybar-list-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.procategorybar-list-item:hover::after,
+.procategorybar-list-item.active::after {
+    background-color: #000;
+    transform: scaleX(1);
+}
+
+.procategorybar-list-item.active::after {
+    transform-origin: left;
+}
+
+.procategorybar-list-item:hover::after {
+    transform-origin: right;
+}
+
+.procategorybar-list-item:hover,
+.procategorybar-list-item.active {
+    color: #000;
+}
+
+/* Styling for the buttons */
+.sortedby-button,
+.filter-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sortedby-button:hover,
+.filter-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Additional styling for the container and row */
+.procategorybar-container {
+    margin-top: 20px;
+}
+
+.procategorybar-row {
+    align-items: center;
+}
+
+/* Styling for the View More button */
+.view-more-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-more-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Card footer styling with inner border */
+.card-footer-inner-border {
+    position: relative;
+    padding: 20px; /* Add padding to create space for the border */
+}

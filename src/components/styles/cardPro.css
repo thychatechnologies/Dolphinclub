@@ -1,0 +1,69 @@
+.product-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #f8f9fa;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+    /* Smooth transition for the image */
+    width: 100%;
+    height: 300px;
+    /* Set fixed height */
+    object-fit: cover;
+}
+
+.product-card:hover .card-img-top {
+    transform: scale(1.05);
+    /* Slightly enlarge the image on hover */
+}
+
+.icons-container {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    /* Initially hide icons */
+    transition: opacity 0.3s ease;
+}
+
+.product-card:hover .icons-container {
+    opacity: 1;
+    /* Show icons on card hover */
+}
+
+.icon {
+    font-size: 34px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    border-radius: 50%;
+    /* Circular shape */
+    padding: 8px;
+    /* Adjust padding for visual appeal */
+}
+
+.icon:hover {
+    color: #007bff;
+    /* Customize as needed */
+    transform: scale(1.2);
+    /* Slightly enlarge on hover */
+}
+
+.heart-icon:hover {
+    color: red;
+}
+
+.cart-icon:hover {
+    color: green;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #6c757d;
+    /* Light gray for muted text */
+}

@@ -1,0 +1,54 @@
+.our-partners {
+    width: 100%;
+    padding: 20px;
+}
+
+.mySwiperourbrands {
+    width: 100%;
+    height: auto;
+    border: 2px solid #f3f3f3;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mySwiperourbrands .myswipermusgro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+.mySwiperourbrands .card {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySwiperourbrands .card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.myswipermusgro::after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-radius: 50%;
+}

@@ -8,24 +8,24 @@ import { TiTick } from "react-icons/ti";
 
 function Featuressection() {
     return (
-        <Container className="features-section my-md-5 my-3">
+        <Container className="features-section my-md-5 my-3 overflow-hidden">
             <Row>
-                <Col md={3} className="feature p-md-3 p-5">
+                <Col md={3} className="feature px-5">
                     <div className="icon" >  <TbTruckDelivery /></div>
                     <h4>FREE DELIVERY</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore repudianda.</p>
                 </Col>
-                <Col md={3} className="feature p-md-3 p-5">
+                <Col md={3} className="feature px-5">
                     <div className="icon" >  <FaMoneyBillWave /></div>
                     <h4>VALUE FOR MONEY</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore repudianda.</p>
                 </Col>
-                <Col md={3} className="feature p-md-3 p-5">
+                <Col md={3} className="feature px-5">
                     <div className="icon" > <GrSecure /></div>
                     <h4>SECURE PAYMENT</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore repudianda.</p>
                 </Col>
-                <Col md={3} className="feature p-md-3 p-5">
+                <Col md={3} className="feature px-5">
                     <div className="icon" >  <TiTick /></div>
                     <h4> 100% AUATHENTIC</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore repudianda.</p>

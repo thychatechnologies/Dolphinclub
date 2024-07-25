@@ -14,7 +14,7 @@ function Navmain() {
                     {/* Logo Section */}
 
                     <Navbar.Brand href="#" className='logoSection'>
-                        <img className='nav-logo' src="./assets/Ajio-Logo.svg" alt="" />
+                        <img className='nav-logo' src="./assets/" alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
 

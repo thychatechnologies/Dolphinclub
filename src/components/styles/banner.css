@@ -6,7 +6,7 @@
 
 .banner-main {
     position: relative;
-    background-color: rgba(var(--bs-tertiary-bg-rgb));
+    background-color: #f8f9fa;
 }
 
 .p-4 {
@@ -29,4 +29,20 @@
 .bannerrow:hover .custom-icon {
     opacity: 1;
     visibility: visible;
+}
+
+.banner-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.banner-btn:hover {
+    background-color: #333;
+    color: #fff;
 }

@@ -1,0 +1,44 @@
+.socialmedia-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .socialmedia-section p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .image-container {
+    width: 100%;
+    max-width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialmedia-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover .socialmedia-image {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+  
+  @media (max-width: 576px) {
+    .socialmedia-section h2 {
+      font-size: 2rem;
+    }
+  
+    .socialmedia-section p {
+      font-size: 1rem;
+    }
+  
+ 
+  }
+  

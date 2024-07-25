@@ -21,7 +21,7 @@ function BannerSec() {
                                     <div className="p-4 text-center">
                                         <h3>First slide label</h3>
                                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                        <Button variant="primary">See More</Button>
+                                        <Button className='banner-btn'>See More</Button>
                                     </div>
                                 </Col>
                                 <Col md={6} className="d-flex align-items-center justify-content-center order-1 order-md-2">
@@ -39,7 +39,7 @@ function BannerSec() {
                                     <div className="p-4 text-center">
                                         <h3>Second slide label</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <Button variant="primary">See More</Button>
+                                        <Button className='banner-btn' >See More</Button>
                                     </div>
                                 </Col>
                                 <Col md={6} className="d-flex align-items-center justify-content-center order-1 order-md-2">
