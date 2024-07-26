@@ -1,7 +1,6 @@
-// Footer.js
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram } from 'react-icons/fa';
 import './styles/footer.css'; // Ensure this CSS file is created and included
 
 const Footer = () => {
@@ -28,7 +27,6 @@ const Footer = () => {
             <a href="#" className="me-4 text-reset icon-hover">
               <FaInstagram />
             </a>
-            
           </div>
         </Container>
       </section>
@@ -39,10 +37,7 @@ const Footer = () => {
           <Row>
             {/* Grid column */}
             <Col md={3} lg={4} xl={3} className="mb-4">
-              {/* Content */}
-              <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem me-3"></i>Kids Dress Shop
-              </h6>
+              <h5 className="footer-heading">Dolphin Club</h5>
               <p>
                 Discover a variety of stylish and comfortable dresses for kids. Explore our latest collections and find the perfect outfit for any occasion.
               </p>
@@ -88,10 +83,10 @@ const Footer = () => {
             <Col md={4} lg={3} xl={3} className="mb-md-0 mb-4">
               {/* Contact */}
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i className="fas fa-home me-3"></i> 123 Dress Street, Fashion City, FC 12345</p>
+              <p><i className="fas fa-home me-3"></i> 123 Dress Street, Fashion City</p>
               <p>
                 <i className="fas fa-envelope me-3"></i>
-                support@kidsdressshop.com
+                dolphinclub@gmail.com
               </p>
               <p><i className="fas fa-phone me-3"></i> +1 234 567 890</p>
               <p><i className="fas fa-print me-3"></i> +1 234 567 891</p>
@@ -103,7 +98,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2024 Copyright:
-        <a className="text-reset fw-bold" href="https://example.com">KidsDressShop.com</a>
+        <a className="text-reset fw-bold" href="https://example.com">dolphinclub@gmail.com</a>
       </div>
     </footer>
   );

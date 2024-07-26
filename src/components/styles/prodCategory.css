@@ -1,8 +1,8 @@
-/* Card row bottom pseudo-element */
+
 .card-row {
     position: relative;
-    padding-bottom: 30px; /* Adjust the padding to fit the pseudo-element */
-    margin-bottom: 20px; /* Space between rows */
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .card-row::after {

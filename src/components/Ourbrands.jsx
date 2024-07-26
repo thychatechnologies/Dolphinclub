@@ -41,32 +41,32 @@ function Ourbrands() {
                         >
                             <SwiperSlide className='myswipermusgro'>
                                 <div className="card">
-                                    <img src="./assets/logoblack.png" className="card-img-top" alt="Partner 1" />
+                                    <img src="./assets/brands/511556-PIF7P1-609.jpg" className="card-img-top" alt="Partner 1" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='myswipermusgro'>
                                 <div className="card">
-                                    <img src="./assets/logoblack.png" className="card-img-top" alt="Partner 1" />
+                                    <img src="./assets/brands/7501630.jpg" className="card-img-top" alt="Partner 1" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='myswipermusgro'>
                                 <div className="card">
-                                    <img src="./assets/logoblack.png" className="card-img-top" alt="Partner 2" />
+                                    <img src="./assets/brands/7501630.jpg" className="card-img-top" alt="Partner 2" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='myswipermusgro'>
                                 <div className="card">
-                                    <img src="./assets/logoblack.png" className="card-img-top" alt="Partner 3" />
+                                    <img src="./assets/brands/7501630.jpg" className="card-img-top" alt="Partner 3" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='myswipermusgro'>
                                 <div className="card">
-                                    <img src="./assets/logoblack.png" className="card-img-top" alt="Partner 4" />
+                                    <img src="./assets/brands/7501630.jpg" className="card-img-top" alt="Partner 4" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='myswipermusgro'>
                                 <div className="card">
-                                    <img src="./assets/logoblack.png" className="card-img-top" alt="Partner 5" />
+                                    <img src="./assets/brands/7501630.jpg" className="card-img-top" alt="Partner 5" />
                                 </div>
                             </SwiperSlide>
                         </Swiper>

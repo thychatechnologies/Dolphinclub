@@ -6,7 +6,6 @@
 
 .banner-main {
     position: relative;
-    background-color: #f8f9fa;
 }
 
 .p-4 {
@@ -21,6 +20,7 @@
     background-color: black;
     border-radius: 50%;
     font-size: 25px;
+    color: white; /* Change icon color to white */
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
@@ -36,13 +36,110 @@
     margin-left: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff; /* Background color white */
+    color: #000; /* Text color black */
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .banner-btn:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Change to dark grey on hover */
+    color: #fff; /* Change text color to white on hover */
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .p-4 {
+        padding: 1rem;
+    }
+
+    .banner-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .banner-content p {
+        font-size: 0.9rem;
+    }
+
+    .banner-btn {
+        padding: 8px 16px;
+    }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .p-4 {
+        padding: 1.2rem;
+    }
+
+    .banner-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+
+    .banner-btn {
+        padding: 9px 18px;
+    }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .p-4 {
+        padding: 1.4rem;
+    }
+
+    .banner-content h3 {
+        font-size: 2rem;
+    }
+
+    .banner-content p {
+        font-size: 1.1rem;
+    }
+
+    .banner-btn {
+        padding: 10px 20px;
+    }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .p-4 {
+        padding: 1.5rem;
+    }
+
+    .banner-content h3 {
+        font-size: 2.2rem;
+    }
+
+    .banner-content p {
+        font-size: 1.2rem;
+    }
+
+    .banner-btn {
+        padding: 10px 20px;
+    }
+}
+
+/* Extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .p-4 {
+        padding: 1.5rem;
+    }
+
+    .banner-content h3 {
+        font-size: 2.4rem;
+    }
+
+    .banner-content p {
+        font-size: 1.3rem;
+    }
+
+    .banner-btn {
+        padding: 10px 20px;
+    }
 }

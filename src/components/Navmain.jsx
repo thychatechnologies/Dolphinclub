@@ -14,13 +14,13 @@ function Navmain() {
                     {/* Logo Section */}
 
                     <Navbar.Brand href="#" className='logoSection'>
-                        <img className='nav-logo' src="./assets/" alt="" />
+                        <img className='nav-logo' src="./assets/logoblack.png" alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
 
                     <Navbar.Collapse id="navbarScroll" >
 
-                        <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
+                        <Nav className="me-auto my-2 my-lg-0" >
                             <Nav.Link >Home</Nav.Link>
                             <Nav.Link >About</Nav.Link>
                             <Nav.Link >Shop</Nav.Link>

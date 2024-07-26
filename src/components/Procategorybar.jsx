@@ -66,13 +66,14 @@ function Procategorybar() {
             <Row className="card-row row-gap-5 pt-5">
                 {Array(8).fill().map((_, index) => (
                     <Col md={4} xl={3} key={index} className="d-flex justify-content-center align-items-center">
-                        <Card className="border-0 rounded-0 shadow position-relative product-card" style={{ width: '19rem' }}>
+                        <Card className="border-0 rounded-2 shadow position-relative product-card" style={{ width: '21rem' }}>
                             <Card.Img
                                 variant="top"
-                                src="./assets/products/asian-girl-posing-removebg-preview.png"
-                                className="card-img-top"
+                                src="./assets/products/portrait-pretty-little-girl-pink-dress.jpg"
+                                className="rounded-0 card-img-top "
                                 alt="Product"
                             />
+
                             <Card.Body className="mt-3 mb-3">
                                 <Row>
                                     <Col xs={10}>
@@ -91,6 +92,7 @@ function Procategorybar() {
                                     </Col>
                                 </Row>
                             </Card.Body>
+
                             <Card.Footer className="bg-light text-center">
                                 <Row className="align-items-center g-0">
                                     <Col xs={4}>
@@ -102,10 +104,11 @@ function Procategorybar() {
                                         </Button>
                                     </Col>
                                 </Row>
-                            </Card.Footer>
+                            </Card.Footer> 
+
                             <div className="icons-container">
                                 <FaHeart className="icon heart-icon" />
-                                <FaShoppingCart className="icon cart-icon" />
+                                <FaShoppingCart className="icon cart-ico" />
                             </div>
                         </Card>
                     </Col>
